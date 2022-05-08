@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "home_section_types",
+  "info": {
+    "singularName": "home-section-type",
+    "pluralName": "home-section-types",
+    "displayName": "Home-Section-Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "post": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::post.post",
+      "mappedBy": "home_section_type"
+    }
+  }
+}

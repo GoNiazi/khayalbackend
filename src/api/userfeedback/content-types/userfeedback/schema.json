@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userfeedbacks",
+  "info": {
+    "singularName": "userfeedback",
+    "pluralName": "userfeedbacks",
+    "displayName": "Userfeedback",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "serviceshired": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "cellno": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "string"
+    },
+    "organization": {
+      "type": "string"
+    },
+    "rate_experience": {
+      "type": "string"
+    },
+    "rate_satisfication": {
+      "type": "string"
+    },
+    "rate_delivery": {
+      "type": "string"
+    },
+    "rate_attitude": {
+      "type": "string"
+    },
+    "rate_professionalism": {
+      "type": "string"
+    },
+    "rate_prices": {
+      "type": "string"
+    },
+    "recommended": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    },
+    "workorder": {
+      "type": "biginteger"
+    }
+  }
+}

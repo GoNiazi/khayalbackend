@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_global_navigation_panels",
+  "info": {
+    "displayName": "navigation-panel",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link",
+      "required": true
+    },
+    "section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.navigation-section"
+      
+    }
+  }
+}
